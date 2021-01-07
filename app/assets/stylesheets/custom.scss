@@ -1,0 +1,96 @@
+@import "bootstrap/scss/bootstrap";
+
+/* mixins, variables, etc. */
+
+$gray-medium-light: #eaeaea;
+
+/* universal */
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-top: 50px;
+ }
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $gray-600;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+header {
+  background-color: $gray-900;
+
+  #logo {
+    font-size: 1.7em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  a {
+    color: $gray-300;
+    padding: 0px 20px;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $gray-300;
+  color: $gray-600;
+  a {
+    color: $gray-600;
+    &:hover {
+      color: $gray-900;
+      text-decoration: none;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
