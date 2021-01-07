@@ -6,8 +6,12 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7958bab7-e280-42b0-b472-6f8a6293a6af" name="Default Changelist" comment="">
+    <list default="true" id="7958bab7-e280-42b0-b472-6f8a6293a6af" name="Default Changelist" comment="Updated the Gemfile.lock to add specific platform for Heroku.&#10;&#10;Installing dependencies using bundler 2.1.4&#10;       Running: BUNDLE_WITHOUT='development:test' BUNDLE_PATH=vendor/bundle BUNDLE_BIN=vendor/bundle/bin BUNDLE_DEPLOYMENT=1 bundle install -j4&#10;       Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again.&#10;       Bundler Output: Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +50,10 @@
       <command value="rake db:create" />
       <command value="rake db:migrate" />
       <command value="test: subcoapp" />
+      <command value="Development: subcoapp" />
     </option>
   </component>
-  <component name="RunManager" selected="Rake.test: subcoapp">
+  <component name="RunManager" selected="Rails.Development: subcoapp">
     <configuration name="Development: subcoapp" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="subcoapp" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -222,7 +227,8 @@
       <updated>1609876933709</updated>
       <workItem from="1609876934921" duration="4904000" />
       <workItem from="1609969092429" duration="7000" />
-      <workItem from="1609969277705" duration="4094000" />
+      <workItem from="1609969277705" duration="4792000" />
+      <workItem from="1610046127523" duration="1777000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Ruby 3.0.0. Rails 6.1.0. Postgres db for development.">
       <created>1609879773021</created>
@@ -238,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609973156258</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated the Gemfile.lock to add specific platform for Heroku.&#10;&#10;Installing dependencies using bundler 2.1.4&#10;       Running: BUNDLE_WITHOUT='development:test' BUNDLE_PATH=vendor/bundle BUNDLE_BIN=vendor/bundle/bin BUNDLE_DEPLOYMENT=1 bundle install -j4&#10;       Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again.&#10;       Bundler Output: Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again.">
+      <created>1609973848261</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609973848261</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,12 +273,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit. Ruby 3.0.0. Rails 6.1.0. Postgres db for development." />
     <MESSAGE value="Added some static pages with dynamic titles and tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some static pages with dynamic titles and tests." />
+    <MESSAGE value="Updated the Gemfile.lock to add specific platform for Heroku.&#10;&#10;Installing dependencies using bundler 2.1.4&#10;       Running: BUNDLE_WITHOUT='development:test' BUNDLE_PATH=vendor/bundle BUNDLE_BIN=vendor/bundle/bin BUNDLE_DEPLOYMENT=1 bundle install -j4&#10;       Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again.&#10;       Bundler Output: Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the Gemfile.lock to add specific platform for Heroku.&#10;&#10;Installing dependencies using bundler 2.1.4&#10;       Running: BUNDLE_WITHOUT='development:test' BUNDLE_PATH=vendor/bundle BUNDLE_BIN=vendor/bundle/bin BUNDLE_DEPLOYMENT=1 bundle install -j4&#10;       Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again.&#10;       Bundler Output: Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/subcoapp@db_create__subcoapp.rcov" NAME="db:create: subcoapp Coverage Results" MODIFIED="1609879373239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
     <SUITE FILE_PATH="coverage/subcoapp@db_migrate__subcoapp.rcov" NAME="db:migrate: subcoapp Coverage Results" MODIFIED="1609879398242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
-    <SUITE FILE_PATH="coverage/subcoapp@test__subcoapp.rcov" NAME="test: subcoapp Coverage Results" MODIFIED="1609972929118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
-    <SUITE FILE_PATH="coverage/subcoapp@Development__subcoapp.rcov" NAME="Development: subcoapp Coverage Results" MODIFIED="1609972529651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
+    <SUITE FILE_PATH="coverage/subcoapp@test__subcoapp.rcov" NAME="test: subcoapp Coverage Results" MODIFIED="1610049801728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
+    <SUITE FILE_PATH="coverage/subcoapp@Development__subcoapp.rcov" NAME="Development: subcoapp Coverage Results" MODIFIED="1610051370274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
   </component>
 </project>
