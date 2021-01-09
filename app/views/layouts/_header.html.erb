@@ -5,7 +5,13 @@
 			<ul class="navbar-nav">
 				<li class="nav-item"><%= link_to "Home", root_path %></li>
 				<li class="nav-item"><%= link_to "About", about_path %></li>
-				<li class="nav-item"><%= link_to "Log in", '#' %></li>
+					<% if current_user %>
+						<li><%=link_to "Account", edit_user_registration_path %></li>
+						<li><%=link_to "Logout", destroy_user_session_path, method: :delete %></li>
+					<% else %>
+						<li><%=link_to "Sign Up", new_user_registration_path %></li>
+						<li><%=link_to "Login", new_user_session_path %></li>
+					<% end %>
 			</ul>
 		</nav>
 	</div>
