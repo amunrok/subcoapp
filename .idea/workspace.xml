@@ -7,35 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b269d1-050e-40a5-9f8c-c0af712e20a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/confirmation_instructions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/email_changed.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/password_change.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/mailer/unlock_instructions.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/shared/_error_messages.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20210113215036_devise_create_users.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/subcoapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/subcoapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +75,7 @@
       <command value="test: subcoapp" />
     </option>
   </component>
-  <component name="RunManager" selected="Rake.test: subcoapp">
+  <component name="RunManager" selected="Rails.Development: subcoapp">
     <configuration name="Development: subcoapp" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="subcoapp" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -279,7 +254,8 @@
       <workItem from="1610139316335" duration="5363000" />
       <workItem from="1610196614691" duration="4582000" />
       <workItem from="1610740144485" duration="65000" />
-      <workItem from="1610740256255" duration="2862000" />
+      <workItem from="1610740256255" duration="4016000" />
+      <workItem from="1610830966457" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Ruby 3.0.0. Rails 6.1.0. Postgres db for development.">
       <created>1609879773021</created>
@@ -302,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609973848261</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Login, Logout, Sign Up and Account routes and views. Customised the routes too.">
+      <created>1610744080020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610744080020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,13 +308,14 @@
     <MESSAGE value="Initial commit. Ruby 3.0.0. Rails 6.1.0. Postgres db for development." />
     <MESSAGE value="Added some static pages with dynamic titles and tests." />
     <MESSAGE value="Updated the Gemfile.lock to add specific platform for Heroku.&#10;&#10;Installing dependencies using bundler 2.1.4&#10;       Running: BUNDLE_WITHOUT='development:test' BUNDLE_PATH=vendor/bundle BUNDLE_BIN=vendor/bundle/bin BUNDLE_DEPLOYMENT=1 bundle install -j4&#10;       Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again.&#10;       Bundler Output: Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again." />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Added Login, Logout, Sign Up and Account routes and views. Customised the routes too." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Login, Logout, Sign Up and Account routes and views. Customised the routes too." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/subcoapp@test_should_get_home.rcov" NAME="test_should_get_home Coverage Results" MODIFIED="1610573514704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
     <SUITE FILE_PATH="coverage/subcoapp@db_create__subcoapp.rcov" NAME="db:create: subcoapp Coverage Results" MODIFIED="1609879373239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
     <SUITE FILE_PATH="coverage/subcoapp@db_migrate__subcoapp.rcov" NAME="db:migrate: subcoapp Coverage Results" MODIFIED="1610225574841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
-    <SUITE FILE_PATH="coverage/subcoapp@test__subcoapp.rcov" NAME="test: subcoapp Coverage Results" MODIFIED="1610743611402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
-    <SUITE FILE_PATH="coverage/subcoapp@Development__subcoapp.rcov" NAME="Development: subcoapp Coverage Results" MODIFIED="1610740829017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
+    <SUITE FILE_PATH="coverage/subcoapp@test__subcoapp.rcov" NAME="test: subcoapp Coverage Results" MODIFIED="1610831088905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
+    <SUITE FILE_PATH="coverage/subcoapp@Development__subcoapp.rcov" NAME="Development: subcoapp Coverage Results" MODIFIED="1610831105823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
   </component>
 </project>
