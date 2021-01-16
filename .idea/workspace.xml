@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b269d1-050e-40a5-9f8c-c0af712e20a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/devise_whitelist.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +256,7 @@
       <workItem from="1610196614691" duration="4582000" />
       <workItem from="1610740144485" duration="65000" />
       <workItem from="1610740256255" duration="4016000" />
-      <workItem from="1610830966457" duration="1577000" />
+      <workItem from="1610830966457" duration="2063000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Ruby 3.0.0. Rails 6.1.0. Postgres db for development.">
       <created>1609879773021</created>
@@ -292,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610832441754</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added controller concerns for devise params">
+      <created>1610833548326</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610833548326</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +325,8 @@
     <MESSAGE value="Updated the Gemfile.lock to add specific platform for Heroku.&#10;&#10;Installing dependencies using bundler 2.1.4&#10;       Running: BUNDLE_WITHOUT='development:test' BUNDLE_PATH=vendor/bundle BUNDLE_BIN=vendor/bundle/bin BUNDLE_DEPLOYMENT=1 bundle install -j4&#10;       Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again.&#10;       Bundler Output: Your bundle only supports platforms [&quot;x86_64-darwin-19&quot;] but your local platform&#10;       is x86_64-linux. Add the current platform to the lockfile with `bundle lock&#10;       --add-platform x86_64-linux` and try again." />
     <MESSAGE value="Added Login, Logout, Sign Up and Account routes and views. Customised the routes too." />
     <MESSAGE value="Added parameters so devise recognises fields other than the standard it ships with. Added into application_controller.rb." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added parameters so devise recognises fields other than the standard it ships with. Added into application_controller.rb." />
+    <MESSAGE value="Added controller concerns for devise params" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added controller concerns for devise params" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/subcoapp@test_should_get_home.rcov" NAME="test_should_get_home Coverage Results" MODIFIED="1610573514704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="subcoapp" />
